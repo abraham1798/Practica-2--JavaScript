@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Práctica JavaScript</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Práctica de JavaScript</h1>
+    </header>
+
+    <main>
+
+        <!-- EJERCICIO 1 -->
+        <section>
+
+            <h2>Ejercicio 1 - Cálculo de salario</h2>
+
+            <label for="salario">Salario bruto:</label>
+
+            <input type="number" id="salario">
+
+            <button onclick="calcularSalario()">
+                Calcular
+            </button>
+
+            <p id="cargas"></p>
+            <p id="renta"></p>
+            <p id="neto"></p>
+
+        </section>
+
+
+        <!-- EJERCICIO 2 -->
+        <section>
+
+            <h2>Ejercicio 2 - Manipulación del DOM</h2>
+
+            <p id="mensaje">
+                Este es el mensaje original.
+            </p>
+
+            <button onclick="cambiarMensaje()">
+                Cambiar mensaje
+            </button>
+
+        </section>
+
+
+        <!-- EJERCICIO 3 -->
+        <section>
+
+            <h2>Ejercicio 3 - Condicionales</h2>
+
+            <label for="edad">Ingrese su edad:</label>
+
+            <input type="number" id="edad">
+
+            <button onclick="validarEdad()">
+                Validar
+            </button>
+
+            <p id="resultadoEdad"></p>
+
+        </section>
+
+
+        <!-- EJERCICIO 4 -->
+        <section>
+
+            <h2>Ejercicio 4 - Estudiantes</h2>
+
+            <button onclick="mostrarEstudiantes()">
+                Mostrar estudiantes
+            </button>
+
+            <div id="listaEstudiantes"></div>
+
+            <p id="promedio"></p>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
